@@ -1,4 +1,5 @@
 # C-C-test
-Small test for C/C++
-First commit AllSort.cpp
-2nd   commit BitNode.cpp
+Just test for commit objects.
+These are my usual accumulation.These are based!
+Welcome to communicate with me!
+So thx for visiting.
