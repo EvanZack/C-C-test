@@ -71,12 +71,12 @@ void MainFrame::ShowSave()
 void OCppCountLine:: Getfile(int a)
 {
 	ifstream infile;
-	system("dir D:\\c++项目\\代码\\*.c*");
+	system("dir D:\\c++\\代码\\*.c*");
 	cout << "请输入要操作的文件名: ";
 	char filename[50];
 	cin >> filename;
 	fflush(stdin);
-	char path[100] = "D:\\c++项目\\代码\\";
+	char path[100] = "D:\\c++\\代码\\";
 	strcat_s(path, 100, filename);
 	infile.open(path);
 	if (!infile)
@@ -259,7 +259,7 @@ void MainFrame::MenuFile(int a)
 	
 	ofstream file;
 	ifstream file1;
-	char path[100] = "D:\\c++项目\\日志文件\\logfile.txt";
+	char path[100] = "D:\\c++\\日志文件\\logfile.txt";
 	file.open(path, ios_base::app | ios_base::out);
 	
 	if (!file)
@@ -318,7 +318,7 @@ void MainFrame::MenuMain()
 	int a;
 	pro.MenuFile(0);
 	system("cls");
-	cout << "                     **************工程大四人项目**************" << endl;
+	cout << "                     ******************************************" << endl;
 	cout << "                     ***             0 显示菜单             ***" << endl;
 	cout << "                     ***             1 日志查看             ***" << endl;
 	cout << "                     ***             2 打开文件             ***" << endl;
@@ -349,7 +349,7 @@ void MainFrame::MenuMain()
 int main()
 {
 	int a;
-	cout << "                     **************工程大四人项目**************" << endl;
+	cout << "                     ******************************************" << endl;
 	cout << "                     ***             0 显示菜单             ***" << endl;
 	cout << "                     ***             1 日志查看             ***" << endl;
 	cout << "                     ***             2 打开文件             ***" << endl;
